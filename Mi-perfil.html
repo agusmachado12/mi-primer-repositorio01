@@ -54,37 +54,34 @@
         
     </nav>
    
-    </header>
+  
    <div class="mi-perfil">
     <h2><img src="http://assets.stickpng.com/thumbs/585e4bf3cb11b227491c339a.png" style="width: 30px; height: 25px; margin: 0px;" >Mi perfil</h2>
-   <h3>Iniciar sesion</h3>
+   <h4>Iniciar sesion</h4>
  <form action="" method="" enctype="">
 
-    <div>
-        <label for="">Correo electronico</label>
-        <input type="text" placeholder="Ingresa tu correo"> 
+  <form class="row g-3">
+    <div class="col-md-6">
+      <label for="inputEmail4" class="form-label">Email</label>
+      <input type="email" class="form-control" id="inputEmail4">
     </div>
-    <div>
-        <label for="">contraseña</label>
-        <input type="password" placeholder="Ingresa tu contraseña">
-        
+    <div class="col-md-6">
+      <label for="inputPassword4" class="form-label">Contraseña</label>
+      <input type="password" class="form-control" id="inputPassword4">
     </div>
-    <h4>Nacionalidad</h4>
-
-    <div>
-        
-        <label for="">Argentino/a</label>
-        <input type="radio" name="Nacionalidad">
-
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="gridCheck">
+        <label class="form-check-label" for="gridCheck">
+          Aceptar terminos y condiciones
+        </label>
+      </div>
     </div>
-    <div>
-        <label for="">Otro</label>
-        <input type="radio" name="Otro">
-        
+    <div class="col-12">
+      <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
-    <div>
-        <input type="submit" value="Enviar formulario">
-    </div>
+  </form>
+   </div>
    </div>
 
     
