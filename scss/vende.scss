@@ -1,0 +1,20 @@
+ /* vende */
+ .vende {
+	display: block;
+}
+
+.vende-option{
+	@extend .vende;
+	display: block;
+    width: 100%;
+    position: relative;
+    margin-top: 25px;
+    width: 300px;
+}
+  
+  .footer-5 {
+    position: relative;
+    top: 500px;
+    width: 100%;
+    margin: 10px;
+  }

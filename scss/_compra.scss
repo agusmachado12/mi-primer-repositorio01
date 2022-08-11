@@ -1,0 +1,34 @@
+/*Compra*/
+.col {
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px;
+    border: $border-1;
+    justify-content: right;
+    background-color: #fff;
+    margin: 10px;
+
+    h3{
+      font-size: 30px;
+    }
+   
+
+    &:hover{
+      background-color: #ecf0f1;
+
+    }
+  }
+  
+ 
+  
+  .logo-pesos::before {
+    content: "$";
+    color: green;
+    font-size: 20px;
+  }
+  
+  .logo-dolares::before {
+    content: "U$S";
+    color: green;
+    font-size: 20px;
+  }

@@ -1,0 +1,55 @@
+/*Contacto*/
+.body-3 {
+    min-height: 100vh;
+    width: 98%;
+  }
+  
+  .form {
+    background-color: #ffffff;
+    width: 100%;
+    margin: auto;
+    max-width: 400px;
+    border-radius: 20px;
+    padding: 20px;
+    position: relative;
+    top: 200px;
+  }
+  
+  .contenedor-form {
+    width: 100%;
+    display: block;
+    grid-auto-columns: 100%;
+    padding: 1px;
+    align-items: center;
+  }
+  
+  .form-input {
+    font-size: 20px;
+    position: relative;
+    margin-top: 25px;
+    width: 200px;
+  }
+  
+  .form-input--message {
+    resize: none;
+    bottom: 5px;
+  }
+  
+  .form-aaa {
+    font-size: 1rem;
+    background-color: #0e78d4;
+    color: #fff;
+    border: none;
+    font-weight: 300;
+    padding: auto;
+    cursor: pointer;
+    width: 380px;
+    top: 10;
+  }
+  
+  .footer-3 {
+    position: relative;
+    top: 380px;
+    width: 100%;
+    margin: 10px;
+  }

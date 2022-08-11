@@ -1,0 +1,37 @@
+//General
+-Cree un scss para cada html.
+-importe todos los scss a styles.scss.
+-Realice un mapa para el background del footer y el body.
+-Realice un bucle para los logos de redes sociales en el footer.
+-Realice un mixing en Mi perfil
+
+//index
+-Agregue Keywords: autos, agencia de autos, agencia de autos buenos aires, Volkswagen, audi, bmw, fiat, honda, dodge, Toyota.
+-Agregue Description: Agencia de compra y venta de vehiculos en Buenos Aires, Argentina.
+-Agregue Title: Automotores AM | Compra y venta de vehiculos.
+-Agregue un Favicon.
+
+//vende
+-Agregue Keywords:venta de autos usados cerca de mi, venta de autos, venta de autos usados, compra venta de autos, venta de autos argentina, venta de autos buenos aires.
+-Agregue Description: Vende tu vehiculo nuevo o usado.
+-Agregue Title: Automotores AM | Compra y venta de vehiculos.
+-Agregue un extend al form en scss.
+-Agregue un Favicon.
+
+//Compra
+-Agregue Keywords: contacto, contactar, contactarnos, contactarme, contactarse, contactar asesor.
+-Agregue Description: Compra desde un vehiculo usado hasta un 0km.
+-Agregue Title: Automotores AM | Compra y venta de vehiculos.
+-Agregue un Favicon.
+
+//Contacto
+-Agregue Keywords: autos, Volkswagen, audi, bmw, fiat, honda, dodge, Toyota, compra de autos, compra de autos usados, venta y compra de autos usados, negocio de venta y compra de autos, compra de autos argentina, compra y venta de autos usados buenos aires, compra de autos usados buenos aires.
+-Agregue Description: Contactar un asesor de ventas.
+-Agregue Title: Automotores AM | Compra y venta de vehiculos.
+-Agregue un Favicon.
+
+//Mi perfil
+--autos, perfil, mi perfil, iniciar secion, registrarse.
+-Agregue Description: Registrarse o iniciar sesion en tu perfil.
+-Agregue Title: Automotores AM | Compra y venta de vehiculos.
+-Agregue un Favicon.

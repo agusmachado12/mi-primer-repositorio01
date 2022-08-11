@@ -1,49 +1,32 @@
-* {
-  margin-right: auto;
-  padding-top: 0%; }
+/*Inicio*/
+.section-inicio {
+  max-width: 1200px; }
 
-body {
-  background-color: lightblue;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  width: 97%;
+.carousel-title {
+  position: relative;
+  left: 150px;
+  padding-bottom: 30px; }
+
+#carouselExampleCaptions {
+  padding-top: 100px !important;
+  width: 600px;
+  margin: auto; }
+
+.footer-4 {
+  position: relative;
+  top: 250px;
+  width: 100%;
   margin: 10px; }
-
-.logo {
-  display: flex;
-  align-items: center; }
-
-.logo-img {
-  width: 350px;
-  height: 100px; }
-
-.nav-1 a {
-  font-weight: 600;
-  padding-right: 15px;
-  flex-direction: row; }
-  .nav-1 a:hover {
-    color: lightblue; }
 
 footer {
   background-color: #ffffff;
-  width: 100%;
+  width: 90%;
   margin: 10px; }
   footer span img {
     width: 200px;
     height: 75px; }
 
-.logo-1, .logo-2, .logo-3, .logo-4 {
-  width: 30px;
-  height: 30px; }
-
-.logo-5 {
-  width: 15px;
-  height: 15px;
-  margin: 0px; }
-
-h3 {
-  font-size: 50px; }
-
-/* compra */
+/*Compra*/
 .col {
   width: 80%;
   margin: 0 auto;
@@ -54,10 +37,6 @@ h3 {
   margin: 10px; }
   .col h3 {
     font-size: 30px; }
-  .col span ::before {
-    content: "$";
-    color: green;
-    font-size: 20px; }
   .col:hover {
     background-color: #ecf0f1; }
 
@@ -71,7 +50,7 @@ h3 {
   color: green;
   font-size: 20px; }
 
-/* contacto */
+/*Contacto*/
 .body-3 {
   min-height: 100vh;
   width: 98%; }
@@ -120,17 +99,19 @@ h3 {
   width: 100%;
   margin: 10px; }
 
-/* Mi perfil */
+/*Mi perfil*/
 .mi-perfil {
-  width: 25%;
-  height: 430px;
   padding: 70px;
-  margin: auto;
   top: 200px;
   background-color: #ffffff;
   border-radius: 5px;
   box-shadow: 5px 5px 5px 5px #d3d3d3;
   position: relative; }
+
+.mi-perfil {
+  height: 430px;
+  width: 25%;
+  margin: auto; }
 
 .footer-2 {
   position: relative;
@@ -138,31 +119,11 @@ h3 {
   width: 100%;
   margin: 10px; }
 
-/* inicio*/
-.section-inicio {
-  max-width: 1200px; }
-
-.carousel-title {
-  position: relative;
-  left: 150px;
-  padding-bottom: 30px; }
-
-#carouselExampleCaptions {
-  padding-top: 100px !important;
-  width: 600px;
-  margin: auto; }
-
-.footer-4 {
-  position: relative;
-  top: 250px;
-  width: 100%;
-  margin: 10px; }
-
 /* vende */
-.div-vende-1 {
+.vende, .vende-option {
   display: block; }
 
-.div-vende-2 {
+.vende-option {
   display: block;
   width: 100%;
   position: relative;
@@ -175,25 +136,46 @@ h3 {
   width: 100%;
   margin: 10px; }
 
-@media screen and (max-width: 1024px) {
-  /* inicio */
-  /* compra */
-  .div-autos {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px;
-    border: 2px solid lightblue;
-    justify-content: center; } }
+/*Estilo general*/
+.logo1 {
+  width: 30px;
+  height: 30px; }
 
-/* Mi perfil */
-.mi-perfil {
-  width: 45%;
-  height: 430px;
-  padding: 70px;
-  width: 55%; }
+.logo2 {
+  width: 30px;
+  height: 30px; }
+
+.logo3 {
+  width: 30px;
+  height: 30px; }
+
+.logo4 {
+  width: 30px;
+  height: 30px; }
+
+body {
+  background-color: lightblue; }
+
+footer {
+  background-color: white; }
+
+.logo {
+  display: flex;
+  align-items: center; }
+
+.logo-img {
+  width: 350px;
+  height: 100px; }
+
+footer {
+  background-color: #ffffff;
+  width: 99%;
+  margin: 10px;
+  position: relative;
+  top: 400px; }
+  footer span img {
+    width: 200px;
+    height: 75px; }
 
 @media screen and (max-width: 768px) {
   .carousel-title {
@@ -221,15 +203,6 @@ h3 {
     align-items: center;
     position: relative;
     margin: 20px;
-    justify-content: center; }
-  .div-autos {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto;
-    width: 80%;
-    margin: 0 auto;
-    padding: 50px;
-    border: 2px solid lightblue;
     justify-content: center; } }
 
 /* Mi perfil */
@@ -260,17 +233,6 @@ h3 {
     display: none; }
   footer, .footer-4 {
     width: 580px; }
-  .div-autos {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto;
-    width: 100%;
-    margin: 0 auto;
-    padding: 50px;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    left: 50px; }
   .buscador {
     list-style-type: none; }
   /* Mi perfil */
