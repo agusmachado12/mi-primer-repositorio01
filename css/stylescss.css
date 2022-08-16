@@ -3,14 +3,35 @@
   max-width: 1200px; }
 
 .carousel-title {
+  text-decoration: overline;
   position: relative;
-  left: 150px;
+  left: 230px;
   padding-bottom: 30px; }
 
 #carouselExampleCaptions {
   padding-top: 100px !important;
-  width: 600px;
+  width: 800px;
   margin: auto; }
+
+.div-map {
+  position: relative;
+  top: 200px;
+  margin-top: 100px;
+  margin-left: 100px;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #000000;
+  background-color: #ffffff;
+  width: 90%; }
+  .div-map h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+    left: 45%;
+    text-decoration: overline; }
+  .div-map iframe {
+    margin: 10px 10px 10px 65px;
+    padding-left: 30px; }
 
 .footer-4 {
   position: relative;
@@ -177,15 +198,17 @@ footer {
     width: 200px;
     height: 75px; }
 
+/*Media queries*/
 @media screen and (max-width: 768px) {
+  /*Inicio*/
   .carousel-title {
     position: relative;
     left: 10px;
-    margin-top: 10px;
+    margin-top: 50px;
     text-align: center; }
   #carouselExampleCaptions {
-    padding-top: 00px !important;
-    width: 400px;
+    padding-top: 30px !important;
+    width: 700px;
     margin: auto; }
   .cif-butn {
     align-items: center;
@@ -195,17 +218,8 @@ footer {
   .contenedor-article {
     width: 130px;
     align-items: center;
-    height: 300px; }
-  .div-article {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    width: 100%;
-    align-items: center;
-    position: relative;
-    margin: 20px;
-    justify-content: center; } }
+    height: 300px; } }
 
-/* Mi perfil */
 @media screen and (max-width: 425px) {
   header {
     width: 600px;
@@ -242,11 +256,12 @@ footer {
   /* Inicio */
   .carousel-title {
     position: relative;
-    right: 160px;
+    right: 150px;
     padding-bottom: 50px;
-    top: 50px; }
+    top: 50px;
+    margin-bottom: 40px; }
   #carouselExampleCaptions {
-    top: 200px !important;
+    top: 20px !important;
     width: 500px;
     margin: auto; }
   .footer-4 {
