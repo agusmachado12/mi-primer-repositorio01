@@ -57,7 +57,7 @@ $site: (
 
   @media all and (max-width:1440px) {
     body{
-      max-width: 1340px;
+      max-width: 1440px;
     }
     .navbar{
       width: 1440px !important;
@@ -92,8 +92,39 @@ $site: (
     
   }
 
-  @media all and (max-width:1024) {
+  @media all and (max-width:1024px) {
     // Inicio
+    
+    .navbar{
+      width: 1024px !important;
+    }
+    .imagen-inicio{
+      img{
+        width: 1024px;
+      }
+    }
+
+    .sobre-nosotros{
+      width: 1010px;
+     
+    }
+    .div-map{
+      width: 1010px;
+      background-color: #ffffff;
+      margin: 30px 10px 50px 10px;
+      box-shadow: 4px 4px 4px 4px black;
+      border-radius: 5px;
+  
+      
+      iframe{
+        margin-left: 100px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 200px;
+        height: 150px;
+      }
+    }
+
 
     
   }
