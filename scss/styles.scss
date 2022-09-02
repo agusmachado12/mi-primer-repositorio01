@@ -110,18 +110,14 @@ $site: (
     }
     .div-map{
       width: 1010px;
-      background-color: #ffffff;
-      margin: 30px 10px 50px 10px;
-      box-shadow: 4px 4px 4px 4px black;
-      border-radius: 5px;
+      
   
       
       iframe{
-        margin-left: 100px;
-        margin-top: 10px;
-        margin-bottom: 10px;
         width: 200px;
         height: 150px;
+        margin-left: 80px;
+        
       }
     }
 
@@ -132,81 +128,139 @@ $site: (
  
 
 
-  @media screen and (max-width: 768px) {
+  @media all and (max-width: 768px) {
 
     /*Inicio*/
+    .navbar{
+      width: 768px !important;
+    }
+    .imagen-inicio{
+      img{
+        width: 768px;
+      }
+    }
+
+    .sobre-nosotros{
+      width: 750px;
+     
+    }
+    .div-map{
+      width: 750px;
+
+      iframe{
+        width: 150px;
+        height: 100px;
+      }
+      
+    }
+    
+    footer{
+      width: 100%;
+      
+    }
 
 
   }
   
   
   
-  @media screen and (max-width: 425px) {
-    header {
-      width: 600px;
-      display: block;
-      height: 160px;
-      background-color: #ffffff;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
+  @media all and (max-width: 425px) {
+    
+    /* Inicio */
+    .navbar{
+      width: 425px !important;
     }
-  
-    .logo {
-      display: flex;
-      align-items: center;
-  
-      img {
-        width: 250px;
-        height: 120px;
-        position: relative;
-        left: 150px;
+    .imagen-inicio{
+      img{
+        width: 425px;
       }
     }
-  
-    .nav-1 a {
-      font-weight: 400;
-      padding-right: 8px;
-      flex-direction: row;
-      position: relative;
-      left: 150px;
+
+    .sobre-nosotros{
+      width: 410px;
+     
     }
-  
-    .buscador {
-      display: none;
-    }
-  
-    
-  
-    
-  
-    .buscador {
-      list-style-type: none;
-    }
-  
-    /* Mi perfil */
-  
-    .mi-perfil {
-      width: 65%;
-      height: 430px;
-    }
-  
-    /* Inicio */
-  
-    .carousel-title {
-      position: relative;
-      right: 150px;
-      padding-bottom: 50px;
-      top: 50px;
-      margin-bottom: 40px;
-    }
-  
-    #carouselExampleCaptions {
-      top: 20px !important;
-      width: 500px;
-      margin: auto;
+    .div-map{
+      width: 410px;
+
+      iframe{
+        width: 200px;
+        height: 150px;
+      }
       
     }
   
     
+  
+    
   }
+
+  @media all and (max-width:375px) {
+
+     /* Inicio */
+     .navbar{
+      width: 375px !important;
+    }
+    .imagen-inicio{
+      img{
+        width: 375px;
+      }
+    }
+
+    .sobre-nosotros{
+      width: 360px;
+     
+    }
+    .div-map{
+      width: 360px;
+
+      iframe{
+        width: 200px;
+        height: 150px;
+      }
+      
+    }
+    
+  }
+
+  @media all and (max-width:320px) {
+    .logo-img{
+      width: 300px;
+      height: 100px;
+    }
+
+    
+    .navbar{
+     width: 320px !important;
+   }
+  //  Inicio
+   .imagen-inicio{
+     img{
+       width: 320px;
+     }
+   }
+
+   .sobre-nosotros{
+     width: 300px;
+    
+   }
+   .div-map{
+     width: 300px;
+
+     iframe{
+       width: 150px;
+       height: 100px;
+     }
+     
+   }
+
+  //  Compra
+  .container{
+    img{
+      width: 200px;
+      height: 150px;
+    }
+  }
+   
+ }
+
