@@ -1,51 +1,32 @@
 /*Inicio*/
-.section-inicio {
-  max-width: 1200px; }
-
-.carousel-title {
-  text-decoration: overline;
-  position: relative;
-  left: 230px;
-  padding-bottom: 30px; }
-
-#carouselExampleCaptions {
-  padding-top: 100px !important;
-  width: 800px;
-  margin: auto; }
+.sobre-nosotros {
+  background-color: #ffffff;
+  font-size: 25px;
+  box-shadow: 4px 4px 4px 4px black;
+  border-radius: 5px;
+  margin: 50px 10px 0px 10px; }
+  .sobre-nosotros h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center; }
 
 .div-map {
-  position: relative;
-  top: 200px;
-  margin-top: 100px;
-  margin-left: 100px;
-  position: relative;
-  border-radius: 5px;
-  box-shadow: 5px 5px 5px 5px #000000;
   background-color: #ffffff;
-  width: 90%; }
+  margin: 30px 10px 50px 10px;
+  box-shadow: 4px 4px 4px 4px black;
+  border-radius: 5px; }
   .div-map h2 {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    position: relative;
-    left: 45%;
-    text-decoration: overline; }
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    text-decoration: underline;
+    display: flex;
+    justify-content: center; }
   .div-map iframe {
-    margin: 10px 10px 10px 65px;
-    padding-left: 30px; }
-
-.footer-4 {
-  position: relative;
-  top: 250px;
-  width: 100%;
-  margin: 10px; }
-
-footer {
-  background-color: #ffffff;
-  width: 90%;
-  margin: 10px; }
-  footer span img {
-    width: 200px;
-    height: 75px; }
+    margin-left: 170px;
+    margin-top: 10px;
+    margin-bottom: 10px; }
 
 /*Compra*/
 .col {
@@ -114,12 +95,6 @@ footer {
   width: 380px;
   top: 10; }
 
-.footer-3 {
-  position: relative;
-  top: 380px;
-  width: 100%;
-  margin: 10px; }
-
 /*Mi perfil*/
 .mi-perfil {
   padding: 70px;
@@ -134,12 +109,6 @@ footer {
   width: 25%;
   margin: auto; }
 
-.footer-2 {
-  position: relative;
-  top: 500px;
-  width: 100%;
-  margin: 10px; }
-
 /* vende */
 .vende, .vende-option {
   display: block; }
@@ -150,12 +119,6 @@ footer {
   position: relative;
   margin-top: 25px;
   width: 300px; }
-
-.footer-5 {
-  position: relative;
-  top: 500px;
-  width: 100%;
-  margin: 10px; }
 
 /*Estilo general*/
 .logo1 {
@@ -188,37 +151,35 @@ footer {
   width: 350px;
   height: 100px; }
 
-footer {
-  background-color: #ffffff;
-  width: 99%;
-  margin: 10px;
-  position: relative;
-  top: 400px; }
-  footer span img {
-    width: 200px;
-    height: 75px; }
+footer span img {
+  width: 200px;
+  height: 75px; }
 
 /*Media queries*/
+@media all and (max-width: 1440px) {
+  body {
+    max-width: 1340px; }
+  .navbar {
+    width: 1440px !important; }
+  .imagen-inicio img {
+    width: 1440px; }
+  .sobre-nosotros {
+    width: 1420px; }
+  .div-map {
+    width: 1420px;
+    background-color: #ffffff;
+    margin: 30px 10px 50px 10px;
+    box-shadow: 4px 4px 4px 4px black;
+    border-radius: 5px; }
+    .div-map iframe {
+      margin-left: 150px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+      width: 250px;
+      height: 200px; } }
+
 @media screen and (max-width: 768px) {
-  /*Inicio*/
-  .carousel-title {
-    position: relative;
-    left: 10px;
-    margin-top: 50px;
-    text-align: center; }
-  #carouselExampleCaptions {
-    padding-top: 30px !important;
-    width: 700px;
-    margin: auto; }
-  .cif-butn {
-    align-items: center;
-    margin-top: 7px;
-    position: relative;
-    right: 35px; }
-  .contenedor-article {
-    width: 130px;
-    align-items: center;
-    height: 300px; } }
+  /*Inicio*/ }
 
 @media screen and (max-width: 425px) {
   header {
@@ -245,8 +206,6 @@ footer {
     left: 150px; }
   .buscador {
     display: none; }
-  footer, .footer-4 {
-    width: 580px; }
   .buscador {
     list-style-type: none; }
   /* Mi perfil */
@@ -263,8 +222,4 @@ footer {
   #carouselExampleCaptions {
     top: 20px !important;
     width: 500px;
-    margin: auto; }
-  .footer-4 {
-    position: relative;
-    top: 600px;
-    right: 15px; } }
+    margin: auto; } }

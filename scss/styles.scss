@@ -46,11 +46,6 @@ $site: (
   
   
   footer {
-    background-color: #ffffff;
-    width: 99%;
-    margin: 10px;
-    position: relative;
-    top: 400px;
   
     span img {
       width: 200px;
@@ -60,6 +55,49 @@ $site: (
 
   /*Media queries*/
 
+  @media all and (max-width:1440px) {
+    body{
+      max-width: 1340px;
+    }
+    .navbar{
+      width: 1440px !important;
+    }
+    .imagen-inicio{
+      img{
+        width: 1440px;
+      }
+    }
+
+    .sobre-nosotros{
+      width: 1420px;
+     
+    }
+    .div-map{
+      width: 1420px;
+      background-color: #ffffff;
+      margin: 30px 10px 50px 10px;
+      box-shadow: 4px 4px 4px 4px black;
+      border-radius: 5px;
+  
+      
+      iframe{
+        margin-left: 150px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 250px;
+        height: 200px;
+      }
+    }
+
+    
+  }
+
+  @media all and (max-width:1024) {
+    // Inicio
+
+    
+  }
+
  
 
 
@@ -68,35 +106,6 @@ $site: (
     /*Inicio*/
 
 
-    .carousel-title {
-      position: relative;
-      left: 10px;
-      margin-top: 50px;
-      text-align: center;
-    }
-  
-    #carouselExampleCaptions {
-      padding-top: 30px !important;
-      width: 700px;
-      margin: auto;
-    }
-  
-    .cif-butn {
-      align-items: center;
-      margin-top: 7px;
-      position: relative;
-      right: 35px;
-    }
-  
-    .contenedor-article {
-      width: 130px;
-      align-items: center;
-      height: 300px;
-    }
-  
-    
-  
-   
   }
   
   
@@ -136,9 +145,7 @@ $site: (
       display: none;
     }
   
-    footer, .footer-4 {
-      width: 580px;
-    }
+    
   
     
   
@@ -170,9 +177,5 @@ $site: (
       
     }
   
-    .footer-4 {
-      position: relative;
-      top: 600px;
-      right: 15px;
-    }
+    
   }
