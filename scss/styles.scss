@@ -2,8 +2,8 @@
 @import "_index";
 @import "_compra";
 @import "_contacto";
-@import "_mi-perfil";
-@import "vende";
+@import "_servicios";
+@import "_vende";
  
 
   
@@ -40,6 +40,9 @@ $site: (
     width: 350px;
     height: 100px;
   }
+
+  
+
 
  
   
@@ -89,6 +92,26 @@ $site: (
       }
     }
 
+    // Servicios
+  .img-servicios{
+    img{
+      width:1440px ;
+    }
+  }
+
+  // Contacto
+  .imagen-contacto{
+    img{
+      width: 1440px;
+    }
+  }
+
+  .imagen-vende{
+    img{
+      width: 1440px;
+    }
+  }
+
     
   }
 
@@ -125,10 +148,47 @@ $site: (
     
   }
 
+  // Servicios
+  .img-servicios{
+    img{
+      width:1024px ;
+    }
+  }
+
+  // Contacto
+  .imagen-contacto{
+    img{
+      width: 1024px;
+    }
+    .form-contacto{
+      margin-right: 100px;
+    }
+  }
+
+  .div-vende{
+    
+    p{
+      font-size: 15px;
+    }
+
+    img{
+      width: 400px;
+      bottom: 450px;
+    }
+  }
+
+  .imagen-vende{
+    img{
+      width: 1024px;
+    }
+  }
+
  
 
 
   @media all and (max-width: 768px) {
+
+    
 
     /*Inicio*/
     .navbar{
@@ -161,6 +221,51 @@ $site: (
 
 
   }
+
+  // Servicios
+  .img-servicios{
+    img{
+      width:768px ;
+    }
+  }
+
+  // Contacto
+  .imagen-contacto{
+    img{
+      width: 768px;
+    }
+    .form-contacto{
+      width: 500px;
+    }
+
+    .form-contacto{
+      background-color: #ffff;
+      width: 500px;
+      
+      
+      
+    
+      
+    
+      
+     }
+
+     .imagen-vende{
+      img{
+        width: 768px;
+      }
+    }
+    .div-vende{
+      div{
+     p{
+        margin-top: 50px;
+     font-size: 25px; 
+     }
+     
+ }
+   }
+  
+  }
   
   
   
@@ -189,11 +294,52 @@ $site: (
       }
       
     }
-  
-    
-  
-    
+
+    // Servicios
+  .img-servicios{
+    img{
+      width:425px ;
+    }
+
+    .title-servicios{
+      text-decoration: underline;
+    }
   }
+
+  .imagen-contacto{
+    img{
+      width: 425px;
+    }
+    
+
+    #form-contacto1{
+      background-color: #ffff;
+      width: 400px !important;
+      
+     }
+    }
+  }
+
+  .imagen-vende{
+    img{
+      width: 425px;
+    }
+    .div-vende{
+      div{
+     p{
+        margin-top: 50px;
+     font-size: 20px; 
+     }
+     
+ }
+   }
+  }
+
+  
+    
+  
+    
+  
 
   @media all and (max-width:375px) {
 
@@ -220,8 +366,37 @@ $site: (
       }
       
     }
+
+ // Servicios
+  .img-servicios{
+    img{
+      width:375px ;
+    }
+  }
+
+  .imagen-contacto{
+    img{
+      width: 375px;
+    }
     
   }
+
+  .imagen-vende{
+    img{
+      width: 375px;
+    }
+  }
+  .div-vende{
+    div{
+   p{
+      margin-top: 50px;
+   font-size: 20px; 
+   }
+   
+}
+ }
+
+}
 
   @media all and (max-width:320px) {
     .logo-img{
@@ -261,6 +436,38 @@ $site: (
       height: 150px;
     }
   }
+
+   // Servicios
+   .img-servicios{
+    img{
+      width:320px ;
+    }
+  }
+
+  .imagen-contacto{
+    img{
+      width: 320px;
+    }
+    
+  }
+
+  .imagen-vende{
+    img{
+      width: 320px;
+    }
+  }
+  .div-vende{
+     div{
+    p{
+       margin-top: 50px;
+    font-size: 15px; 
+    }
+    
+}
+  }
+
+ 
+
    
  }
 

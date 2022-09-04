@@ -1,0 +1,42 @@
+ /* vende */
+ .div-vende{
+    width: 100%;
+    height: auto;
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #ffff;
+    text-align: justify-all;
+    margin-top: 200px;
+    font-size: 16px;
+    margin-bottom: 300px;
+    border-radius: 5px;
+  box-shadow: 5px 5px 5px 5px #000000;
+
+    h1{
+        text-align: center;
+        margin-top: 50px;
+        font-size: 30px;
+        text-decoration: underline;
+        
+    }
+
+    div{
+        p{
+           margin-top: 50px;
+        font-size: 30px; 
+        }
+        
+    }
+    button{
+        width: 100px;
+        background-color: lightblue;
+        position: relative;
+        left: 50%;
+    }
+
+   
+   
+ }
+  
+  
